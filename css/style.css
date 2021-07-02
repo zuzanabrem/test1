@@ -7,11 +7,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
-@media header and (min-width: 200px) {
-    .div0 {width: 100%; float: left;}
-    .div1 {margin-left: 216px;}
-  }
 
+.navbar-nav .i:hover{
+color: #7971ea;
+}
 
 /*nav*/
 
@@ -29,7 +28,7 @@ li a{
   
     float:left ;
     margin:10px auto;
-    width: 100px;
+    width: 200px;
     padding: 10px;
     text-align: center;
    color: black;
@@ -53,7 +52,7 @@ li a:hover{
        position: absolute;
        top: 100px;
        right: 0;
-       margin-right: 200px;
+       margin-right: 100px;
        padding: 30px;
  }
 .div1 a{
@@ -70,6 +69,7 @@ li a:hover{
 /*section2*/
 .sec2{
     position:relative ;
+   
 }
 .div2{
     position: absolute;
@@ -111,17 +111,13 @@ li a:hover{
 /*section4*/
 
 /*shop*/
-.nav-item {
-    
+.secti1.secti2 {
+    justify-content: space-between;
 }
 
 
 
-
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
   
   /* Style the header */
   header {
@@ -135,14 +131,14 @@ li a:hover{
   /* Container for flexboxes */
   .seci1 {
     display: -webkit-flex;
-   
+    padding: 10px;
   }
   
   
   article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
+    -webkit-flex:2;
+    -ms-flex: 2;
+    flex: 2;
    
     padding: 10px;
   }
@@ -154,10 +150,35 @@ li a:hover{
     margin: 10px;
   }
 .secti{
-margin: 30px;
-  justify-content: space-between;
+
+
     padding: 20px;
   }
   .secti.articl{
     float: right;
+    justify-content: space-between;
   }
+  .secti3{
+    justify-content: space-between;
+  }
+  .div4{
+    justify-content: space-between;
+    font-size: x-large;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    
+   
+}
+.div5{
+  float: right;
+  margin: 50px;
+}
+.shop{
+  justify-content: space-between;
+    font-size: x-large;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    
+}
